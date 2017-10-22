@@ -12,4 +12,8 @@ int main(){
 	double beratTon =berat*ounce;	
 	cout<<"1 kotak kemasan sereal beratnya (satuan Ton)= ";
 	cout << beratTon<<endl;
+	
+	double jumlah=1/beratTon;
+	cout<<"jika terdapatt 1 ton sereal, maka akan memerlukan = "<<jumlah;cout<<"kotak"<<endl;
+	
 }
