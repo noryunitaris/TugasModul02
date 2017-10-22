@@ -6,5 +6,8 @@ int main(){
 	
 	double berat;
 	cout<<"Masukkan Berapa Berat Sereal dalam 1 kotak kemasan(satuan ounce) = ";
-	cin >> berat;	
+	cin >> berat;
+	
+	double ounce= 1/ton;
+	double beratTon =berat*ounce;	
 }
