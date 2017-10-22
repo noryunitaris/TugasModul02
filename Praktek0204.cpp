@@ -15,4 +15,7 @@ int main(){
 	double biayaparket = jumlahboxparket*500;
 	cout << "Biaya parket(Rp)		: " << biayaparket <<endl;
 	
+	double biayapasang = luasrumah*20;
+	cout << "Biaya pasang(Rp)		: " << biayapasang <<endl;
+	
 }
