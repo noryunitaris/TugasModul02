@@ -18,4 +18,7 @@ int main(){
 	double biayapasang = luasrumah*20;
 	cout << "Biaya pasang(Rp)		: " << biayapasang <<endl;
 	
+	double totalbiaya = biayaparket + biayapasang;
+	cout << "Total Biaya(Rp)			: " << totalbiaya;
+	
 }
